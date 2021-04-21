@@ -9,7 +9,7 @@
 <!-- This is the style Section--->
 <style>
 
-@media(min-width:768px){ .container-1{ font-family: 'Zen Dots', cursive; 
+@media(min-width:468px){ .container-1{ font-family: 'Zen Dots', cursive; 
   display:flex;/* align-items:flex-start;
   align-items:flex-end; align-items:center; flex-direction:column; */ 
   
@@ -22,22 +22,28 @@ justify-content:space-between; font-family:'Zen Dots', cursive;}
 
 }
 
-  
+.container-3{
+display:flex; flex-wrap:wrap; font-family:'Zen Dots', cursive;
+  }
 
 
-.container-1 div, .container-2 div{
+.container-1 div, .container-2 div, .container-3 div{
 border:1px #ccc solid;
 padding:10px;
 }
 
-.box-1{ flex:2; order:2;}
+.box-1{ flex:2; order:2; background-color:#fdca40; border-style: outset;color:#542e71;}
 
-.box-2{flex:1;order:1; }
+.box-2{flex:1;order:1;background-color:#fb3640; color: border-style:outset;}
 
 .box-3{flex:1; order:3;}
 
 .container-2-box{
-flex-basis:23%;
+flex-basis:23%; 
+}
+
+.container-3-box{ 
+flex-basis:15%;
 }
 
 </style>
@@ -52,8 +58,8 @@ flex-basis:23%;
 <div class="box-2">
 
 <h3> Journal</h3>
-<p> I always loved having a Journal, where i made notes of my adventures, as a kid i had loads of imaginary space
-even had an imaginary friend adn i gues today its my only real friend .</p>
+<p> I always loved my Journal, made loads notes of adventures, like a kid with loads of imaginary space
+i once had an imaginary friend today its the realist.</p>
 </div>
 
 <div class ="box-3">
@@ -84,6 +90,36 @@ even had an imaginary friend adn i gues today its my only real friend .</p>
 
 </div>
 </div>
+
+<div class="container-3">
+
+
+<div class="container-3-box">
+<h3> Box Seven</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div>
+<div class="container-3-box">
+<h3> Box Eight</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div>
+<div class="container-3-box">
+<h3> Box Nine</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div>
+<div class="container-3-box">
+<h3> Box Ten</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div><div class="container-3-box">
+<h3> Box Eleven</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div>
+<div class="container-3-box">
+<h3> Box Twelve</h3>
+<p>Chicken cow beef venison short loin doner leberkas pork loin, bacon brisket tenderloin landjaeger filet mignon</p>
+</div>
+</div>
+
+
 
 
 </body>
