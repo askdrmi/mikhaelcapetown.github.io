@@ -2,140 +2,138 @@
 <html>
 <head>
 <meta charset="utf-8">
- <link type="text/css" rel="stylesheet" href="style.css"/>
- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
- <link rel="preconnect" href="https://fonts.gstatic.com">
- <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
- <title>SUCH WOW </title>
+<title>SUCH WOW !</title>
+<link rel="stylehseet" href="style.css">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+<!-- This is the style Section--->
 <style>
-body {
-display:flex;
-color: #fdca40;
-        background-image: url("bgg.jpg");
-    }
+  body{ margin: 0;font-family: 'Zen Dots',cursive;
 
- h3
-  {position: absolute;
-  display: ;
-  z-index:999;
-  left:0;
-  right:0;
-  top:40%;
-  text-align: center;
-  width: 60%;
-font-family: 'Zen Dots', cursive;
-text-transform: uppercase;
-color: #fdca40;
+color:#fdca40;
+  }
+
+  h1{
+    margin-top: 0;
+    width:35%;
+    margin:5px auto 5px auto;
+  }
+
+  h3{
+    margin-top: 0;
+    width:35%;
+    margin:0 auto 0 auto;
+  }
+
+.top-container{
+  background-color: #542e71;
+  width:800px;
+
+  height:400px;
+}
+
+.middle-container{
+
+border-top: #fdca40;
+  background-color: #fb3640;
+  width:800px;
+
+  height:400px;
+}
+
+.bottom-container{
+  background-color: #a799b7;
+
+  width:800px;
+
+  height:400px;
 }
 
 
-h3 {
-    animation-name: text;
-    animation-timing-function:ease-out;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+div.background {
+  background: url(bgg.jpg) repeat;
+  border: 2px solid black;
 }
-@keyframes text {
 
-    0% { transform: translateX(500px); }
-    50% { transform: translateX(1px); }
-    100% { transform: translateX(0); }
-
-  }
-    .stage {
-        border-bottom: 3px solid #fb3640;
-        display: flex;
-        height: 500px;
-        width: 800px;
-    }
-    .box {
-        align-self: flex-end;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-        background-image: url("testbg.png");
-        height: 400px;
-        margin: 2px auto 2px auto;
-        transform-origin: bottom;
-        width: 740px;
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
 }
-    .Booboo {
-        animation-name: Booboo;
-        animation-timing-function:ease-in-out;
-    }
-    @keyframes Booboo {
-
-        0% { transform: translateX(0px); }
-        50% { transform: translateX(-500px); }
-        100% { transform: translateX(0); }
-    }
-
-    .text{position: absolute;
-    display: ;
-    z-index:999;
-    left:0;
-    right:0;
-    top:40%;
-    text-align: center;
-    width: 60%;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  color: #fdca40;
-
-  }
-
-   a:hover{
-  background:none ; color: gold;}
-
-  footer{ padding-right: 2px;
-
-  }
-
-  .homipsy{ padding: 10px 10px 10px 10px;
-
-  }
+/*animation section*/
+div.transbox  p {
+  margin: 5%;
+  font-weight: bold;
+  color: #fb3640;
+  animation-name: Booboo;
+  animation-timing-function:ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
 
 
-iframe{ position: relative;
 
+@keyframes Booboo {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(-60px); }
+    100% { transform: translateX(-1300px); }
+
+}
+img{ width: 20%; height: 20%;
+  animation-name: doge1;
+  animation-timing-function:ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 
 }
 
+@keyframes doge1 {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(0px); }
+    100% { transform: translateX(1300px); }
+
+    }
 </style>
- </head>
+</head>
 
 <body>
-  <div class="navi">
-  <nav>
-         <a href=
- "https://www.askmikhael.co.za">
-                 Home</a> |
-         <a href=
- "https://www.askmikhael.co.za">
-                 Interview</a> |
-         <a href=
- "https://www.askmikhael.co.za">
-                 Gate</a> |
-         <a href=
- "https://www.askmikhael.co.za">
-                 Data Structure</a> |
-         <a href=
- "https://www.askmikhael.co.za">
-                 Algorithm</a>
-     </nav>
-   </div>
- <h3>Doge Day ! <br>Follow Your Dreams
-   </h3>
- <a class="text" href="#">Show More</a>
- <div class="stage">
-<div class="box Booboo"></div>
+  <!-- Doge Crypto Add -->
+<div class="top-container">
+<h1> Its Doge-ment Day !</h1>
+<h3> Follow Your Dreams </h3>
+</div>
 
- </div>
+<div class="middle-container">
+  <div class="background">
+    <div class="transbox">
+  <img src="testbg.png" alt="dccapetown">
+  <img src="dcoinsy.gif" alt="dcsymbol">
+
+      <p></p>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="bottom-container">
+  <h2>Get In Touch</h2>
+      <p>Bacon ipsum dolor amet shoulder rump turducken andouille shankle
+        drumstick cow fatback chislic capicola pig ham beef ribs.</p>
+      <p>  Landjaeger tenderloin chicken,
+        brisket fatback frankfurter ground round venison prosciutto shoulder pancetta chuck kevin.
+        Venison turkey pork loin boudin andouille biltong shank beef ribs.  </p>
+      <a class="btn" href="mailto:mikhael.younglings@gmail.com">CONTACT ME</a>
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p>© 2021 Mikhael Erasmus.</p>
+</div>
+
+
 </body>
 
-<footer>
-
-<iframe class="homipsy" src="https://scratch.mit.edu/projects/518291595/embed" allowtransparency="true" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
-
-</footer>
 </html>
